@@ -128,7 +128,7 @@ The `03_sql_query` script performs the following steps:
 To use this script, ensure the SQLite database is in the right path and the necessary libraries are installed. Then, run the script to generate the CSV files with the merged data. 
 
 
-### Pre-processing Script (01_pre-processing)
+### Pre-processing Script
 
 The `01_pre-processing` script performs the following steps:
 
