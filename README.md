@@ -16,11 +16,9 @@ Welcome to CryptoChronos, a cutting-edge, AI-powered trading algorithm designed 
     * [Pre-processing Script](#pre-processing-script)
     * [Modeling Notebook](#modeling-notebook)
     * [Backtesting Notebook](#backtesting-notebook)
-4. [Usage Instructions](#usage-instructions)
-5. [Conclusion](#conclusion)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Contact](#contact)
+4. [Conclusion](#conclusion)
+5. [Contributing](#contributing)
+6. [Contact](#contact)
 
 
 ## Project Overview
