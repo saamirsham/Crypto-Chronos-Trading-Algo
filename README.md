@@ -16,11 +16,9 @@ Welcome to CryptoChronos, a cutting-edge, AI-powered trading algorithm designed 
     * [Pre-processing Script](#pre-processing-script)
     * [Modeling Notebook](#modeling-notebook)
     * [Backtesting Notebook](#backtesting-notebook)
-4. [Usage Instructions](#usage-instructions)
-5. [Conclusion](#conclusion)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Contact](#contact)
+4. [Conclusion](#conclusion)
+5. [Contributing](#contributing)
+6. [Contact](#contact)
 
 
 ## Project Overview
@@ -52,7 +50,7 @@ pip install -r requirements.txt
 
 ### Data Pulling and Organising Scripts 
 
-##### 01_data_puller.ipynb
+##### *01_data_puller.ipynb*
 
 Now that you have installed all the prerequisites, you can start using CryptoChronos. The main function in this script is `get_hourly_data`. It fetches hourly historical data for a given cryptocurrency symbol. Here's how to use it:
 
@@ -93,7 +91,7 @@ for i in currency_list:
 
 This will pull and store the data for each cryptocurrency listed in `currency_list`, informing you of the process as it runs.
 
-##### 02_db_builder.ipynb
+##### *02_db_builder.ipynb*
 
 The `02_db_builder` script is designed to create and populate a SQLite database from the CSV files created in the data pulling stage. 
 
@@ -113,7 +111,7 @@ Here's a quick breakdown of how to use the script:
 
 - Check the `crypto_database.db` file in the `../data/` directory. Each cryptocurrency should have its own table filled with the data from the respective CSV file. 
 
-##### 03_sql_query.ipynb
+##### *03_sql_query.ipynb*
 
 The `03_sql_query` script performs the following steps:
 
@@ -128,7 +126,7 @@ The `03_sql_query` script performs the following steps:
 To use this script, ensure the SQLite database is in the right path and the necessary libraries are installed. Then, run the script to generate the CSV files with the merged data. 
 
 
-### Pre-processing Script (01_pre-processing)
+### Pre-processing Script
 
 The `01_pre-processing` script performs the following steps:
 
