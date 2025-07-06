@@ -261,7 +261,6 @@ Contributions are what make the open-source community such an amazing place to l
 
 ## Contact
 
-Your Name - shamsie@usc.edu
-
+ssaamirs@gmail.com
 Project Link: https://git.generalassemb.ly/ssaamirs/Capstone
 
